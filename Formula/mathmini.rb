@@ -2,8 +2,8 @@ class Mathmini < Formula
   desc "Sample math library containing add and sub functions"
   homepage "https://github.com/JameelKaisar/mathmini-brew"
   url "https://github.com/JameelKaisar/mathmini-brew.git",
-      tag:      "v1.0.0",
-      revision: "c2c9aafd69f80f460dd7f8f27603d6d21fdbcbc9"
+      tag:      "v1.0.1",
+      revision: "32fdd2300aa14aed8ccada340accef4e548efe3c"
   license "MIT"
 
   depends_on "gcc" => :build
