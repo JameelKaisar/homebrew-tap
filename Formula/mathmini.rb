@@ -7,8 +7,8 @@ class Mathmini < Formula
   license "MIT"
 
   bottle do
-    root_url "https://github.com/JameelKaisar/homebrew-tap/releases/download/mathmini-1.0.1"
-    sha256 cellar: :any_skip_relocation, x86_64_linux: "f618217e6967764271f11d00da5f41a120dada8d721dc96378f45b36244f0e00"
+    root_url "https://github.com/JameelKaisar/homebrew-tap/releases/download/mathmini-1.0.2"
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "558d46aaa74d91d6821d88baaf6c7c7bccfaedcd31f80467cd1038a0908186b5"
   end
 
   depends_on "gcc" => :build
