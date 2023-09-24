@@ -2,8 +2,8 @@ class Mathmini < Formula
   desc "Sample math library containing add and sub functions"
   homepage "https://github.com/JameelKaisar/mathmini-brew"
   url "https://github.com/JameelKaisar/mathmini-brew.git",
-      tag:      "v1.0.1",
-      revision: "32fdd2300aa14aed8ccada340accef4e548efe3c"
+      tag:      "v1.0.2",
+      revision: "d7b55f373b83b0ed8c699e3bdb0ec40e6c7fa5b8"
   license "MIT"
 
   bottle do
