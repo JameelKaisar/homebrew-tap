@@ -9,6 +9,7 @@ jobs:
     runs-on: ubuntu-22.04
     permissions:
       contents: write # IMPORTANT
+      pull-requests: write
 
     steps:
       - name: Set up Homebrew
@@ -42,4 +43,5 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ github.token }}
           PULL_REQUEST: ${{ github.event.pull_request.number }}
-        run: gh pr close $PULL_REQUEST
+          REPO: ${{ github.repository }}
+        run: gh pr close $PULL_REQUEST --repo $REPO
